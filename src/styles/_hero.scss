@@ -9,6 +9,10 @@
     background-size: cover;
     box-shadow: variables.$blue1 0px 45px 90px -12px;
 
+    .container {
+        position: relative;
+    }
+
     &__text {
         margin-top: 64px;
         margin-bottom: 64px;

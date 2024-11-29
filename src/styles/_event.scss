@@ -8,15 +8,15 @@
     }
     
     &--ux-ui {
-        background-image: url('../images/night.png');
+        background-image: linear-gradient(variables.$blue2, variables.$secondaryColor);
     }
 
     &--data-science {
-        background-image: linear-gradient(variables.$pink, variables.$yellow);
+        background-color: variables.$secondaryColor;
     }
 
     &--back-end {
-        background-image: linear-gradient(variables.$yellow, variables.$pink);
+        background-image: linear-gradient(variables.$secondaryColor, variables.$yellow);
     }
 
     &--image-left {

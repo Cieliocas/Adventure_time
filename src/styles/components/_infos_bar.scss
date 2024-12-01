@@ -27,10 +27,15 @@
     }
 
     @media (max-width: 640px) {
-        display: block;
+        display: flex;
+        padding: 24px;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
 
         &__infos {
             display: block;
+            
 
             &__item {
                 margin-bottom: 24px;

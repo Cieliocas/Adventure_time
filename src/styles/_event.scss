@@ -8,15 +8,15 @@
     }
     
     &--ux-ui {
-        background-image: linear-gradient(variables.$blue2, variables.$secondaryColor);
+        background-image: linear-gradient(variables.$blue2, variables.$blue2);
     }
 
     &--data-science {
-        background-color: variables.$secondaryColor;
+        background-color: variables.$blue2;
     }
 
     &--back-end {
-        background-image: linear-gradient(variables.$secondaryColor, variables.$yellow);
+        background-image: linear-gradient(variables.$blue2, variables.$yellow);
     }
 
     &--image-left {
@@ -39,12 +39,12 @@
             font-size: 18px;
             font-weight: bold;
             margin-bottom: 16px;
-            text-shadow: #FFB501 1px 0 10px;
+            text-shadow: variables.$jakeColor 1px 0 10px;
         }
 
         &__description {
             margin-top: 22px;
-            text-shadow: #FFB501 1px 0 10px;
+            text-shadow: variables.$jakeColor 1px 0 10px;
         }
     }
 

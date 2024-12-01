@@ -1,0 +1,48 @@
+@use 'variables';
+
+.lady-iris {
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    z-index: 10;
+    transition: transform 0.3s ease-in-out;
+
+    &__image {
+        max-width: 300px;
+        height: auto;
+        filter: drop-shadow(0 0 10px variables.$jakeColor);
+        
+        @media (max-width: 1024px) {
+            max-width: 200px;
+        }
+        
+        @media (max-width: 640px) {
+            max-width: 100px;
+        }
+    }
+
+    &:hover {
+        transform: translateY(-10px);
+    }
+
+    @media (max-width: 768px) {
+        right: 5%;
+        bottom: 5%;
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.lady-iris__image {
+    animation: float 3s ease-in-out infinite;
+}

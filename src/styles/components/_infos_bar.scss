@@ -29,12 +29,13 @@
     @media (max-width: 640px) {
         display: flex;
         padding: 24px;
-        justify-content: center;
-        align-items: center;
         flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
 
         &__infos {
-            display: block;
+            flex-direction: column;
+            align-items: center;
             
 
             &__item {

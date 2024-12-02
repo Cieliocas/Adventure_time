@@ -31,7 +31,7 @@
     }
 
     &__image {
-        max-width: 360px;
+        max-width: 240px;
     }
 
     &__details {
@@ -49,17 +49,30 @@
     }
 
     @media (max-width: 640px) {
+        padding: 40px 20px;
+
         .container {
             display: block;
+            padding: 0;
         }
 
         &__image {
             width: 100%;
+            max-width: 90%;
+            height: auto;
         }
 
         &__details {
             margin-right: 0;
             margin-bottom: 16px;
+
+            &__title {
+                font-size: 16px;
+            }
+
+            &__description {
+                font-size: 14px;
+            }
         }
     }
 }

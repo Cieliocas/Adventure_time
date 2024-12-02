@@ -8,6 +8,11 @@
 @use 'footer';
 @use 'variables';
 
+
+body {
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -21,7 +26,6 @@
     max-width: 960px;
     width: 100%;
     margin: 0 auto;
-    
 
     @media (max-width: 640px) {
         max-width: 80%;

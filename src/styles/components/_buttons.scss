@@ -12,6 +12,11 @@
     background: var(--bg);
     transition: 0.2s;
     text-decoration: none;
+
+    @media (max-width: 640px) {
+        max-width: 100%;
+        margin-bottom: 12px;
+    }
 }
 
 .button:hover {

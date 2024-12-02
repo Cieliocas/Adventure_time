@@ -1,0 +1,48 @@
+@use '../variables';
+
+.lady-iris {
+    position: absolute;
+    left: 60%; // Centraliza horizontalmente
+    top: 0px; // Posiciona no topo, com um pequeno espaçamento
+    transform: translateX(-50%); // Ajusta a centralização
+    z-index: 5;
+    transition: transform 0.3s ease-in-out;
+
+    &__image {
+        max-width: 280px; // Reduzido o tamanho máximo para caber melhor no topo
+        height: auto;
+        filter: drop-shadow(0 0 10px variables.$jakeColor);
+        
+        @media (max-width: 1024px) {
+            max-width: 180px;
+        }
+        
+        @media (max-width: 640px) {
+            max-width: 140px;
+        }
+    }
+
+    &:hover {
+        transform: translateX(-50%) translateY(-5px); // Mantém a centralização ao flutuar
+    }
+
+    @media (max-width: 768px) {
+        top: -8px; // Ajusta a posição para telas menores
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateX(-50%) translateY(0px);
+    }
+    50% {
+        transform: translateX(-50%) translateY(-10px);
+    }
+    100% {
+        transform: translateX(-50%) translateY(0px);
+    }
+}
+
+.lady-iris__image {
+    animation: float 3s ease-in-out infinite;
+}

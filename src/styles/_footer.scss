@@ -43,17 +43,19 @@
     }
 
     &__info {
-        padding: 20px 20px;
-        background-color: #00000088;
-        text-align: right;
+        padding: 16px 16px;
+        text-align: end;
         font-size: 18px;
-        line-height: 1.5;
-        text-shadow: #FFB501 1px 0 10px;
+        text-shadow: #000000 1px 0 8px;
         border-radius: 30px;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        outline: variables.$textColor solid 2px;
+        outline-offset: .2em;
+        border-radius: .2em;
 
         &--name {
         font-weight: bold;
-        color: variables.$textColor;
+        color: variables.$jakeColor;
         }
 
         &--role {

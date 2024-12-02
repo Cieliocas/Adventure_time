@@ -1,21 +1,21 @@
 @use 'variables';
 
 .event {
-    padding: 80px 0;
+    padding: 22px 0;
 
-    &--front-end {
+    &--jake {
         background-image: linear-gradient(variables.$blue1, variables.$blue2);
     }
     
-    &--ux-ui {
+    &--finn {
         background-image: linear-gradient(variables.$blue2, variables.$blue2);
     }
 
-    &--data-science {
+    &--bmo {
         background-color: variables.$blue2;
     }
 
-    &--back-end {
+    &--jujuba {
         background-image: linear-gradient(variables.$blue2, variables.$yellow);
     }
 
@@ -27,11 +27,11 @@
 
     .container {
         display: flex;
-        gap: 40px;
+        gap: 20px;
     }
 
     &__image {
-        max-width: 240px;
+        max-width: 360px;
     }
 
     &__details {
@@ -49,7 +49,7 @@
     }
 
     @media (max-width: 640px) {
-        padding: 40px 20px;
+        padding: 22px 0;
 
         .container {
             display: block;
@@ -57,8 +57,8 @@
         }
 
         &__image {
-            width: 100%;
-            max-width: 90%;
+            width: 90%;
+            max-width: 100%;
             height: auto;
         }
 

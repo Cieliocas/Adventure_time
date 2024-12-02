@@ -10,7 +10,6 @@
 
     .container {
         position: relative;
-        max-width: 80%;
     }
 
     &__text {
@@ -31,11 +30,11 @@
     }
 
     @media (max-width: 640px) {
-        padding: 32px 24px;
+        padding: 24px 24px;
 
         &__logo {
             height: auto;
-            max-width: 80%;
+            max-width: 90%;
         }
 
         &__text {

@@ -1,4 +1,5 @@
 @use '../variables' as *;
+@use 'sass:math';
 
 .social-buttons {
     display: flex;
@@ -55,8 +56,8 @@
     }
 
     svg {
-        height: percentage($social-button-icon-size);
-        width: percentage($social-button-icon-size);
+        height: math.percentage($social-button-icon-size);
+        width: math.percentage($social-button-icon-size);
     }
 
     @each $name, $color in $social-button-colors {

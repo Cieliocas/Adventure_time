@@ -1,6 +1,6 @@
 # Landing Page - Hora de Aventura✨
 
-Neste módulo, desenvolvi uma landing page para um evento fictício, explorando os elementos de design e funcionalidades essenciais para uma página de apresentação completa e responsiva. Abaixo estão as etapas e conhecimentos adquiridos ao longo do processo:
+Desenvolvi uma landing page para um evento fictício, explorando os elementos de design e funcionalidades essenciais para uma página de apresentação completa e responsiva. Abaixo estão as etapas e conhecimentos adquiridos ao longo do processo:
 
 ### Principais Tópicos Abordados
 
@@ -45,7 +45,7 @@ Este módulo foi fundamental para aprimorar habilidades de design e desenvolvime
 
 # Landing Page - Adventure Time ✨
 
-In this module, I developed a landing page for a fictional event, exploring the design elements and key functionalities for a complete and responsive presentation page. Below are the steps and knowledge acquired throughout the process:
+I developed a landing page for a fictional event, exploring the design elements and key functionalities for a complete and responsive presentation page. Below are the steps and knowledge acquired throughout the process:
 
 ### Main Topics Covered
 
